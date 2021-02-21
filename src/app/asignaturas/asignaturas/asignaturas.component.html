@@ -1,0 +1,6 @@
+<h3>Asignaturas</h3>
+<ul>
+    <li *ngFor="let asignatura of asignaturas">
+        {{ asignatura.nombre }} - {{ asignatura.creditos | number }}
+    </li>
+</ul>
